@@ -42,11 +42,17 @@ ol {
 }
 
 .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
     margin-bottom: 94px;
 }
 
 
 /* Header */
+
+.header {
+    border-bottom: 1px solid #ececec;
+}
 
 .container {
     width: 100%;
@@ -147,7 +153,7 @@ ol {
 .order-service {
     background-color: var(--background);
     text-align: center;
-    padding: 195px 452px 200px;
+    padding: 195px 226px 200px;
 }
 
 .main-title {
@@ -183,6 +189,10 @@ ol {
 
 
 /* Features */
+
+.main-features {
+    padding: 0;
+}
 
 .features-list {
     display: flex;
@@ -229,6 +239,10 @@ ol {
 
 /* What we do */
 
+.work {
+    padding: 0;
+}
+
 .work-title {
     margin-bottom: 50px;
 }
@@ -250,8 +264,6 @@ ol {
 /* Our team */
 
 .our-team {
-    padding-top: 94px;
-    padding-bottom: 94px;
     margin-bottom: 0;
 }
 
@@ -424,7 +436,7 @@ ol {
 }
 
 .projects>.projects-item {
-    outline: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
