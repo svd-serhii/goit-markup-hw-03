@@ -33,8 +33,15 @@ ol {
     padding-left: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .link {
     text-decoration: none;
+    padding: 20px 0;
 }
 
 .list {
@@ -44,7 +51,6 @@ ol {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-    margin-bottom: 94px;
 }
 
 
@@ -190,10 +196,6 @@ ol {
 
 /* Features */
 
-.main-features {
-    padding: 0;
-}
-
 .features-list {
     display: flex;
     justify-content: space-between;
@@ -240,7 +242,7 @@ ol {
 /* What we do */
 
 .work {
-    padding: 0;
+    padding-top: 0;
 }
 
 .work-title {
@@ -262,10 +264,6 @@ ol {
 
 
 /* Our team */
-
-.our-team {
-    margin-bottom: 0;
-}
 
 .our-team-title {
     margin-bottom: 50px;
