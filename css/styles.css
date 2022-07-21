@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 14px;
     color: var(--main-color);
@@ -70,7 +70,7 @@ img {
 }
 
 .logo-header {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: Bold;
     font-weight: 700;
     font-size: 26px;
@@ -309,7 +309,7 @@ img {
 }
 
 .logo-footer {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
